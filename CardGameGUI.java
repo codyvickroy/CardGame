@@ -1,13 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ *  Cody Vickroy
+ *  Java 110 | UVM
+ *  December 7th, 2013
+ * 
+ *  The GUI for a Card Game
  */
 
-/**
- *
- * @author codyvickroy
- */
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
 public class CardGameGUI {
+    
+    
+    
+    
+    
     
 }
