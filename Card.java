@@ -26,6 +26,8 @@ public class Card {
     * @param rank
     */ 
     public Card(int suit, int rank){
+        this.suit = suit;
+        this.rank = rank;
         
         if(suit == 1){
             suitName = "Spades";
@@ -37,13 +39,13 @@ public class Card {
             suitName = "Diamonds";
         }
         
-        if(rank == 1){
+        if(rank == 0){
             rankName = "Ace";
-        }else if(rank == 11){
+        }else if(rank == 10){
             rankName = "Jack";
-        }else if(rank == 12){
+        }else if(rank == 11){
             rankName = "Queen";
-        }else if(rank == 13){
+        }else if(rank == 12){
             rankName = "King";
         }else{
             rankName = Integer.toString(rank);

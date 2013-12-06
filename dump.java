@@ -9,7 +9,7 @@ import java.io.*;
  * @author codyvickroy
  */
 public class dump {
-    public static void main(String [] args) throws IOException { 
+    public static void main(String [] args) { 
         CardGame warGames = new CardGame();
         warGames.setUp();
         warGames.play();
